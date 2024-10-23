@@ -1,27 +1,27 @@
-# Expense Sharing Application
+# Daily Expense Sharing Application
 
-A backend REST API for managing shared expenses between users. The application allows users to add expenses and split them using different methods: equal splits, exact amounts, and percentages.
+This project features a backend REST API designed for managing shared expenses among users. It provides functionalities for users to add and split expenses using various methods: equal division, specified amounts, and percentage-based splits.
 
 ## Features
 
 - User Management
-  - User registration and authentication
+  - User registration and login
   - JWT-based authentication
-  - User profile management
+  - Management of user profiles
 
 - Expense Management
-  - Create expenses with multiple splitting options
-  - Equal splits
-  - Exact amount splits
-  - Percentage-based splits
+  - Create expenses with multiple splitting options:
+      - Equal splits
+      - Exact amount splits
+      - Percentage-based splits
   - View individual expenses
-  - View group expenses
+  - Access group expenses
   - Generate expense reports
 
 - Split Methods
-  1. Equal Split: Amount divided equally among participants
-  2. Exact Split: Specify exact amount for each participant
-  3. Percentage Split: Split based on specified percentages
+  - Equal Split: The total amount is divided equally among all participants.
+  - Exact Split: Users can specify an exact amount for each participant.
+  - Percentage Split: Expenses are divided based on predefined percentages.
 
 ## Technology Stack
 
